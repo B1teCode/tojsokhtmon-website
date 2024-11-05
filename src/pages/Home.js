@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css';
+import Buildings_component from '../components/Buildings_component';
 
 import promo1 from '../assets/images/img/promo1.png';
 import promo2 from '../assets/images/img/promo2.png';
@@ -10,7 +11,7 @@ import promo3 from '../assets/images/img/promo3.png';
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        <div className="slide slide-promotion">
+        <div className="slide slide-s">
             <div className='promotion-slide-description'>
                 <div className='promotion-slide-description-content'>
                     <h2>Суперакция</h2>
@@ -22,30 +23,30 @@ const Home = () => {
                 <img src={promo1} alt='Promo1' />
             </div>
         </div>,
-        <div className="slide slide-promotion">
-            <div className='promotion-slide-description'>
-                <div className='promotion-slide-description-content'>
-                    <h2>Суперакция</h2>
-                    <p>Купи квартиру и получи iPhone 16 Pro в подарок!</p>
-                    <a href='#'>Подробнее</a>
-                </div>
-            </div>
-            <div className='promotion-slide-img'>
-                <img src={promo2} alt='Promo2' />
-            </div>
-        </div>,
-        <div className="slide slide-promotion">
-            <div className='promotion-slide-description'>
-                <div className='promotion-slide-description-content'>
-                    <h2>Суперакция</h2>
-                    <p>Купи квартиру и получи iPhone 16 Pro в подарок!</p>
-                    <a href='#'>Подробнее</a>
-                </div>
-            </div>
-            <div className='promotion-slide-img'>
-                <img src={promo3} alt='Promo3' />
-            </div>
-        </div>,
+        // <div className="slide slide-s">
+        //     <div className='promotion-slide-description'>
+        //         <div className='promotion-slide-description-content'>
+        //             <h2>Суперакция</h2>
+        //             <p>Купи квартиру и получи iPhone 16 Pro в подарок!</p>
+        //             <a href='#'>Подробнее</a>
+        //         </div>
+        //     </div>
+        //     <div className='promotion-slide-img'>
+        //         <img src={promo2} alt='Promo2' />
+        //     </div>
+        // </div>,
+        // <div className="slide slide-s">
+        //     <div className='promotion-slide-description'>
+        //         <div className='promotion-slide-description-content'>
+        //             <h2>Суперакция</h2>
+        //             <p>Купи квартиру и получи iPhone 16 Pro в подарок!</p>
+        //             <a href='#'>Подробнее</a>
+        //         </div>
+        //     </div>
+        //     <div className='promotion-slide-img'>
+        //         <img src={promo3} alt='Promo3' />
+        //     </div>
+        // </div>,
     ];
 
     const progressRef = useRef(null);
@@ -97,13 +98,13 @@ const Home = () => {
                             ))}
                         </div>
                     </div>
-                    <div className='pn-button'>
+                    {/* <div className='pn-button'>
                         <button className="prev" onClick={prevSlide}>&#10094;</button>
                         <div className="progress-bar-container">
                             <div ref={progressRef} className="progress-bar"></div>
                         </div>
                         <button className="next" onClick={nextSlide}>&#10095;</button>
-                    </div>
+                    </div> */}
                 </div>
                 <section>
                     <div className='section-title'>Проекты</div>
@@ -113,8 +114,7 @@ const Home = () => {
             </header>
 
             <main>
-                {/* <p>Здесь основной контент страницы.</p>
-                <p>Добавьте больше информации о своей странице здесь.</p> */}
+                <Buildings_component />
             </main>
 
             <footer>

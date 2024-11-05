@@ -1,15 +1,15 @@
-// src/pages/Buildings.js
+// src/pages/About.js
 
 import React from 'react';
 
-const Buildings = () => {
+const About = () => {
     return (
         <div>
-            <h1>Buildings страница</h1>
+            <h1>About страница</h1>
             <p>Добро пожаловать на наш сайт!</p>
             {/* Добавьте сюда остальные элементы, которые хотите отобразить на главной странице */}
         </div>
     );
 };
 
-export default Buildings;
+export default About;

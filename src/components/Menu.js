@@ -21,11 +21,11 @@ const Menu = () => {
             {/* Навигация */}
             <nav id="nav" className={isActive ? 'active' : ''}>
                 <div className="logo">
-                    <a href="/"><img src={logo} alt="logo" /></a>
+                    <a href="/tojsokhtmon-website/"><img src={logo} alt="logo" /></a>
                 </div>
 
                 <div className="nav-item">
-                    <a href="/buildings">Новостройки</a>
+                    <a href="/tojsokhtmon-website/buildings">Новостройки</a>
                     <a href="/flats">Выбрать квартиру</a>
                     <a href="/storeroom">Кладовые</a>
                     <a href="/parking">Машиноместа</a>
@@ -42,7 +42,7 @@ const Menu = () => {
                         <i className="fa fa-phone" aria-hidden="true"></i>
                         5060
                     </a>
-                    Перезвонить вам?
+                    Позвонить вам?
                 </div>
             </nav>
         </div>

@@ -14,8 +14,8 @@ const App = () => {
             <Menu />
             <div className="content">
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/buildings" element={<Buildings />} />
+                <Route path="/tojsokhtmon-website/" element={<Home />} />
+                <Route path="/tojsokhtmon-website/buildings" element={<Buildings />} />
                 {/* Добавьте другие маршруты */}
             </Routes>
             </div>
