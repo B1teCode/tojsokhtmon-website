@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/tojsokhtmon-website/static/css/main.1814526f.css",
-    "main.js": "/tojsokhtmon-website/static/js/main.28e22c15.js",
+    "main.css": "/tojsokhtmon-website/static/css/main.c383f5ec.css",
+    "main.js": "/tojsokhtmon-website/static/js/main.333d59ec.js",
     "static/js/453.0318795b.chunk.js": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js",
+    "static/media/cart3.PNG": "/tojsokhtmon-website/static/media/cart3.fd96b4dbbf7af30610ed.PNG",
+    "static/media/cart7.PNG": "/tojsokhtmon-website/static/media/cart7.79aa1fef3a757f40e643.PNG",
+    "static/media/cart4.JPG": "/tojsokhtmon-website/static/media/cart4.81bd395e5fd8ce3a4f0c.JPG",
+    "static/media/cart5.JPG": "/tojsokhtmon-website/static/media/cart5.8331133b4dd7f6854803.JPG",
+    "static/media/cart8.PNG": "/tojsokhtmon-website/static/media/cart8.5a8e8e8ef6c27c888734.PNG",
+    "static/media/cart2.PNG": "/tojsokhtmon-website/static/media/cart2.50471c43aed71a6b17f5.PNG",
+    "static/media/cart6.PNG": "/tojsokhtmon-website/static/media/cart6.cc9d881db431818e8baa.PNG",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/tojsokhtmon-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/promo1.png": "/tojsokhtmon-website/static/media/promo1.d6a5e3642ece250a18ef.png",
+    "static/media/cart1.jpg": "/tojsokhtmon-website/static/media/cart1.a0f943eac07c846d2ded.jpg",
     "static/media/promo2.png": "/tojsokhtmon-website/static/media/promo2.b0a4c031069d74b4970e.png",
     "static/media/fontawesome-webfont.eot": "/tojsokhtmon-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/tojsokhtmon-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -14,12 +22,12 @@
     "static/media/Cygre-Medium.ttf": "/tojsokhtmon-website/static/media/Cygre-Medium.8875a256928c885d8e79.ttf",
     "static/media/TS_LOGO-03.svg": "/tojsokhtmon-website/static/media/TS_LOGO-03.064aee20d5401260b4fed168f0149940.svg",
     "index.html": "/tojsokhtmon-website/index.html",
-    "main.1814526f.css.map": "/tojsokhtmon-website/static/css/main.1814526f.css.map",
-    "main.28e22c15.js.map": "/tojsokhtmon-website/static/js/main.28e22c15.js.map",
+    "main.c383f5ec.css.map": "/tojsokhtmon-website/static/css/main.c383f5ec.css.map",
+    "main.333d59ec.js.map": "/tojsokhtmon-website/static/js/main.333d59ec.js.map",
     "453.0318795b.chunk.js.map": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1814526f.css",
-    "static/js/main.28e22c15.js"
+    "static/css/main.c383f5ec.css",
+    "static/js/main.333d59ec.js"
   ]
 }
