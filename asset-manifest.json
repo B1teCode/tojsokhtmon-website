@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tojsokhtmon-website/static/css/main.c383f5ec.css",
+    "main.css": "/tojsokhtmon-website/static/css/main.2e8f46f6.css",
     "main.js": "/tojsokhtmon-website/static/js/main.333d59ec.js",
     "static/js/453.0318795b.chunk.js": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js",
     "static/media/cart3.PNG": "/tojsokhtmon-website/static/media/cart3.fd96b4dbbf7af30610ed.PNG",
@@ -22,12 +22,12 @@
     "static/media/Cygre-Medium.ttf": "/tojsokhtmon-website/static/media/Cygre-Medium.8875a256928c885d8e79.ttf",
     "static/media/TS_LOGO-03.svg": "/tojsokhtmon-website/static/media/TS_LOGO-03.064aee20d5401260b4fed168f0149940.svg",
     "index.html": "/tojsokhtmon-website/index.html",
-    "main.c383f5ec.css.map": "/tojsokhtmon-website/static/css/main.c383f5ec.css.map",
+    "main.2e8f46f6.css.map": "/tojsokhtmon-website/static/css/main.2e8f46f6.css.map",
     "main.333d59ec.js.map": "/tojsokhtmon-website/static/js/main.333d59ec.js.map",
     "453.0318795b.chunk.js.map": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c383f5ec.css",
+    "static/css/main.2e8f46f6.css",
     "static/js/main.333d59ec.js"
   ]
 }
