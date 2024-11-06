@@ -131,7 +131,7 @@ const Buildings_component = () => {
             <div className='carts'>
                 <div className='cart'>
                     <div className='cart-header'>
-                        <img src={cart1} alt='cart1' />
+                        <img src={cart1} alt='cart1' loading="lazy" />
                         <div className='cart-tags'>
                             <div className='cart-tag'><i className='fa fa-building'></i>Бизнес</div>
                             <div className='cart-tag'><i className='fa fa-paint-brush'></i>Штукатурка</div>

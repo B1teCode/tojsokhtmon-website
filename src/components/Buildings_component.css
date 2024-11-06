@@ -89,7 +89,10 @@
     transition: background-color 0.2s;
     color: #717680;
 }
-
+.tag:hover{
+    background-color: #10554b;
+    color: white;
+}
 .tag input {
     position: absolute;
     opacity: 0;
@@ -121,7 +124,7 @@
 .carts {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
 
@@ -131,10 +134,10 @@
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 360px 1fr;
-    -webkit-box-shadow: 36px 33px 81px 57px rgba(34, 60, 80, 0.03);
-    -moz-box-shadow: 36px 33px 81px 57px rgba(34, 60, 80, 0.03);
-    box-shadow: 36px 33px 81px 57px rgba(34, 60, 80, 0.03);
+    grid-template-rows: 270px 1fr;
+    -webkit-box-shadow: 26px 41px 100px -1px rgba(34, 60, 80, 0.12);
+    -moz-box-shadow: 26px 41px 100px -1px rgba(34, 60, 80, 0.12);
+    box-shadow: 26px 41px 100px -1px rgba(34, 60, 80, 0.12);
     transition: 0.2s;
 }
 
@@ -163,11 +166,13 @@
 }
 
 .cart-tags {
+    width: 100%;
     position: absolute;
     top: 10px;
     left: 10px;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -202,14 +207,14 @@
 
 .title-description h2 {
     text-transform: uppercase;
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 14px;
 }
 
 .title-description p {
-    color: #505050;
+    color: #797979;
     font-size: 1.6rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .apartments-price {
@@ -223,9 +228,12 @@
     font-size: 1.6rem;
     color: #000;
 }
-@media (930px <= width <= 1260px) {
+/* @media (width <= 1300px) {
+    .cart
+} */
+@media (930px <= width <= 1300px) {
     .cart{
-        grid-template-rows: 300px 1fr;
+        grid-template-rows: 220px 1fr;
     }
 }
 
@@ -258,6 +266,9 @@
 
     .submit-button {
         width: 100%;
+    }
+    .carts{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
