@@ -89,7 +89,7 @@ nav .nav-footer {
   justify-content: flex-end;
 }
 
-nav .nav-footer a {
+nav .nav-footer-tel {
   display: block;
   font-size: 22px;
   font-weight: 700;
@@ -98,10 +98,30 @@ nav .nav-footer a {
   margin-bottom: 13.38px;
 }
 
-nav .nav-footer a i {
+nav .nav-footer-tel i {
   margin-right: 10px;
 }
-
+nav .nav-footer span{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+nav .nav-footer span a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #10554b;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+nav .nav-footer span a:hover{
+  color: #10554b;
+  background-color: #fff;
+  /* transform: scale(1.1, 1.1); */
+}
 /* Контент */
 .content {
   margin-left: 240px;
@@ -179,9 +199,16 @@ section a{
   position: absolute;
   right: 80px;
   top: -160px;
+
 }
 section a i{
   font-size: 22px !important;
+  /* border: 1px solid black; */
+  transition: 0.4s ease;
+
+}
+section a:hover>i{
+  padding-left: 10%;
 }
 /* Кнопка меню-бургер */
 .menu-toggle {
@@ -199,6 +226,11 @@ section a i{
     margin-bottom: 20px;
     }
 }
+@media (height <= 730px) {
+  nav{
+    padding: 15px 0;
+  }
+}
 /* Стили для мобильных устройств */
 @media (max-width: 780px) {
   nav {
@@ -207,7 +239,7 @@ section a i{
   nav .logo{
   margin-bottom: 0;
   }
-  nav .nav-item a{
+  nav .nav-footer-tel{
       margin: 15px 0;
   }
   .content {
@@ -260,6 +292,9 @@ section a i{
     flex-direction: row;
     align-items: center;
   }
+  section a:hover>i{
+    padding-left: 0;
+  }
   section .section-description{
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -281,6 +316,7 @@ section a i{
   section a{
     font-size: 1.6rem;
     line-height: 1.6rem;
+    height: 60px;
   }
 }
 .pages-content{
@@ -289,5 +325,14 @@ section a i{
 @media (width <= 1000px) {
   header{
       height: auto;
+  }
+}
+@media (width <= 540px) {
+  section a{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    height: 60px;
+    font-weight: 100;
+    letter-spacing: normal;
   }
 }

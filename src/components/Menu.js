@@ -38,11 +38,17 @@ const Menu = () => {
                 </div>
 
                 <div className="nav-footer">
-                    <a href="tel:+9925060">
+                    <a href="tel:+9925060" className='nav-footer-tel'>
                         <i className="fa fa-phone" aria-hidden="true"></i>
                         5060
                     </a>
                     Позвонить вам?
+                    <span>
+                        <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </span>
                 </div>
             </nav>
         </div>
