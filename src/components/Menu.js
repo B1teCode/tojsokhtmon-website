@@ -26,8 +26,8 @@ const Menu = () => {
 
                 <div className="nav-item">
                     <a href="/tojsokhtmon-website/buildings">Новостройки</a>
-                    <a href="/flats">Выбрать квартиру</a>
-                    <a href="/storeroom">Кладовые</a>
+                    <a href="/tojsokhtmon-website/flats">Выбрать квартиру</a>
+                    <a href="/tojsokhtmon-website/storeroom">Кладовые</a>
                     <a href="/parking">Машиноместа</a>
                     <a href="/commercial">Коммерческие помещения</a>
                     <a href="/promotions">Акции</a>
@@ -44,10 +44,10 @@ const Menu = () => {
                     </a>
                     Позвонить вам?
                     <span>
-                        <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://t.me/tojsokhtmon" target='_blank'><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/@tojsokhtmon-l3q" target='_blank'><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/tojsokhtmon?mibextid=LQQJ4d" target='_blank'><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/tojsokhtmon?igsh=MWdmenZ5enBsODRpaw==" target='_blank'><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </span>
                 </div>
             </nav>

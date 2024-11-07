@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css';
+import { Helmet } from 'react-helmet';
 import Buildings_component from '../components/Buildings_component';
 
 import promo1 from '../assets/images/img/promo1.png';
@@ -13,6 +14,11 @@ const Home = () => {
 
     return (
         <div className="pages-content">
+            <Helmet>
+                <title>Главная - Строительная Компания Tojsokhtmon</title>
+                <meta name="description" content="Добро пожаловать на главную страницу нашей строительной компании." />
+                <meta name="keywords" content="строительство, недвижимость, строительная компания" />
+            </Helmet>
             <header>
                 <div className="promotion">
                     <div className='promotion-description'>

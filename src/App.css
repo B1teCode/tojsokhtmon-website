@@ -95,7 +95,7 @@ nav .nav-footer-tel {
   font-weight: 700;
   color: #10554b;
   text-decoration: none;
-  margin-bottom: 13.38px;
+  margin-bottom: 10px;
 }
 
 nav .nav-footer-tel i {
@@ -116,6 +116,8 @@ nav .nav-footer span a{
   background-color: #10554b;
   border-radius: 50%;
   transition: 0.2s;
+  width: 28px;
+  height: 28px;
 }
 nav .nav-footer span a:hover{
   color: #10554b;
