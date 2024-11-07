@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tojsokhtmon-website/static/css/main.0b9184c8.css",
-    "main.js": "/tojsokhtmon-website/static/js/main.14631a36.js",
+    "main.css": "/tojsokhtmon-website/static/css/main.3fe86587.css",
+    "main.js": "/tojsokhtmon-website/static/js/main.d55f3e32.js",
     "static/js/453.0318795b.chunk.js": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js",
     "static/media/cart3.PNG": "/tojsokhtmon-website/static/media/cart3.fd96b4dbbf7af30610ed.PNG",
     "static/media/cart7.PNG": "/tojsokhtmon-website/static/media/cart7.79aa1fef3a757f40e643.PNG",
@@ -10,6 +10,7 @@
     "static/media/cart8.PNG": "/tojsokhtmon-website/static/media/cart8.5a8e8e8ef6c27c888734.PNG",
     "static/media/cart2.PNG": "/tojsokhtmon-website/static/media/cart2.50471c43aed71a6b17f5.PNG",
     "static/media/cart6.PNG": "/tojsokhtmon-website/static/media/cart6.cc9d881db431818e8baa.PNG",
+    "static/media/background.png": "/tojsokhtmon-website/static/media/background.c3c64f4b69404eb6e20d.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/tojsokhtmon-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/promo1.png": "/tojsokhtmon-website/static/media/promo1.d6a5e3642ece250a18ef.png",
     "static/media/cart1.jpg": "/tojsokhtmon-website/static/media/cart1.a0f943eac07c846d2ded.jpg",
@@ -23,12 +24,12 @@
     "static/media/Cygre-Medium.ttf": "/tojsokhtmon-website/static/media/Cygre-Medium.8875a256928c885d8e79.ttf",
     "static/media/TS_LOGO-03.svg": "/tojsokhtmon-website/static/media/TS_LOGO-03.064aee20d5401260b4fed168f0149940.svg",
     "index.html": "/tojsokhtmon-website/index.html",
-    "main.0b9184c8.css.map": "/tojsokhtmon-website/static/css/main.0b9184c8.css.map",
-    "main.14631a36.js.map": "/tojsokhtmon-website/static/js/main.14631a36.js.map",
+    "main.3fe86587.css.map": "/tojsokhtmon-website/static/css/main.3fe86587.css.map",
+    "main.d55f3e32.js.map": "/tojsokhtmon-website/static/js/main.d55f3e32.js.map",
     "453.0318795b.chunk.js.map": "/tojsokhtmon-website/static/js/453.0318795b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9184c8.css",
-    "static/js/main.14631a36.js"
+    "static/css/main.3fe86587.css",
+    "static/js/main.d55f3e32.js"
   ]
 }
